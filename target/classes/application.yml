@@ -1,0 +1,7 @@
+server:
+  frontend:
+    address: ${FRONTEND_ADDRESS:localhost}
+    port: ${FRONTEND_PORT:9000}
+  backend:
+    address: ${BACKEND_ADDRESS:localhost}
+    port:  ${BACKEND_PORT:9000}
